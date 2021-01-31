@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 // health check
-app.get('/api', (_, res) => res.send('Hello world1'));
+app.get('/api', (_, res) => res.send('Hello world'));
 
 app.get('/api/test', (_, res) => res.send('Hello world2'));
 

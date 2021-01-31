@@ -24,6 +24,13 @@
     "name": "onecloud-multi-container-backend",
     "image": "708988062417.dkr.ecr.ap-northeast-1.amazonaws.com/onecloud-multi-container-backend:16e5134e4e003f0b47ddb9b84d8f4a5372e72bac",
     "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 8080,
+        "hostPort": 8080,
+        "protocol": "tcp"
+      }
+    ],
     "logConfiguration": {
       "logDriver": "awslogs",
       "options": {
