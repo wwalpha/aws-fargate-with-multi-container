@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dockerbuild": "docker build -t multi-container-frontend ."
+    "dockerbuild": "docker build -t multi-container-nginx ."
   },
   "eslintConfig": {
     "extends": [

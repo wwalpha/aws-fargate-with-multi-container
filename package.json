@@ -1,0 +1,19 @@
+{
+  "name": "aws-fargate-with-multi-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "act push --platform ubuntu-18.04=nektos/act-environments-ubuntu:18.04 --secret-file .secrets -W .github/workflows/backend.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwalpha/aws-fargate-with-multi-container.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwalpha/aws-fargate-with-multi-container/issues"
+  },
+  "homepage": "https://github.com/wwalpha/aws-fargate-with-multi-container#readme"
+}
