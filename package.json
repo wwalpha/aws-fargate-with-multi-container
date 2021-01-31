@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "act push --platform ubuntu-18.04=nektos/act-environments-ubuntu:18.04 --secret-file .secrets -W .github/workflows/backend.yml"
+    "test": "act push --platform ubuntu-18.04=nektos/act-environments-ubuntu:18.04 --secret-file .secrets -W .github/workflows/nginx.yml"
   },
   "repository": {
     "type": "git",
