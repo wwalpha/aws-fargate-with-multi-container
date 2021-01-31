@@ -3,7 +3,7 @@
 # ----------------------------------------------------------------------------------------------
 resource "aws_ecr_repository" "nginx" {
   name                 = "onecloud-multi-container-nginx"
-  image_tag_mutability = "MUTABLE"
+  image_tag_mutability = "IMMUTABLE"
   image_scanning_configuration {
     scan_on_push = true
   }
@@ -14,7 +14,7 @@ resource "aws_ecr_repository" "nginx" {
 # ----------------------------------------------------------------------------------------------
 resource "aws_ecr_repository" "backend" {
   name                 = "onecloud-multi-container-backend"
-  image_tag_mutability = "MUTABLE"
+  image_tag_mutability = "IMMUTABLE"
   image_scanning_configuration {
     scan_on_push = true
   }
